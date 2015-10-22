@@ -1,10 +1,12 @@
-package com.example.guest.tchamitchami;
+package com.example.guest.tchamitchami.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.guest.tchamitchami.R;
 
 
 public class MainActivity extends AppCompatActivity {

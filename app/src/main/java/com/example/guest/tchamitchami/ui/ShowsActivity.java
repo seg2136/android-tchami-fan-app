@@ -1,4 +1,4 @@
-package com.example.guest.tchamitchami;
+package com.example.guest.tchamitchami.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,25 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import static com.example.guest.tchamitchami.R.*;
+import com.example.guest.tchamitchami.R;
 
-public class AboutActivity extends AppCompatActivity {
+
+public class ShowsActivity extends AppCompatActivity {
 
     private Button mMainButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(layout.activity_about);
+        setContentView(R.layout.activity_shows);
 
         mMainButton = (Button) findViewById(R.id.mainButton);
 
         mMainButton.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View v) {
-                Intent intent = new Intent(AboutActivity.this, MainActivity.class);
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ShowsActivity.this, MainActivity.class);
                 startActivity(intent);
-             }
+            }
         });
     }
 }
