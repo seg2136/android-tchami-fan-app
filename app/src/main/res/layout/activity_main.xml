@@ -44,7 +44,8 @@
         android:layout_alignRight="@+id/mainLabel"
         android:layout_alignEnd="@+id/mainLabel"
         android:layout_alignLeft="@+id/mainLabel"
-        android:layout_alignStart="@+id/mainLabel"/>
+        android:layout_alignStart="@+id/mainLabel"
+        android:textSize="14sp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -57,5 +58,6 @@
         android:layout_alignRight="@+id/aboutButton"
         android:layout_alignEnd="@+id/aboutButton"
         android:layout_alignLeft="@+id/aboutButton"
-        android:layout_alignStart="@+id/aboutButton"/>
+        android:layout_alignStart="@+id/aboutButton"
+        android:textSize="14sp"/>
 </RelativeLayout>
