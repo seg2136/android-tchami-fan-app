@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tchami Tchami</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_button">About Tchami</string>
+    <string name="shows_button">Upcoming Shows</string>
+</resources>
